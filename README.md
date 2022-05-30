@@ -51,5 +51,6 @@ Two types of users will be available on the site:
     - compare the current data and the submitted (if it's a data update)
     - accept the submission (only Administrator)
     - deny the submission (only Administrator)
+    - edit the submission (only Administrator)
     - delete the submission
-  - a submission should be visually marked if it was accepted, denied or is pending
+  - a submission should be visually marked if it was accepted, denied or is pending. If denied, feedback should be provided to the editor knows what could be happened.
