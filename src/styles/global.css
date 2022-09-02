@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 body {
-  @apply bg-white text-black;
+  @apply bg-white text-black h-full;
   -webkit-font-smoothing: antialiased;
+}
+
+html,
+#root {
+  @apply h-full;
 }
