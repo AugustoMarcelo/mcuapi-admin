@@ -52,6 +52,13 @@ module.exports = {
           500: '#FFCC00',
         },
       },
+      boxShadow: {
+        button: '0 4px 4px rgba(0,0,0,.25)',
+        card: '0px 2px 4px rgba(0, 0, 0, 0.5);',
+      },
+      gridTemplateColumns: {
+        sidebar: '230px minmax(0, 1fr)',
+      },
     },
   },
   plugins: [],
